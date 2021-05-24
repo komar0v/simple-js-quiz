@@ -1,0 +1,66 @@
+body{
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #333;
+}
+
+input[type='radio'] + label {
+    display:inline-block;
+	width:95%;
+	padding:10px;
+	border:1px solid #ddd;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+input[type='radio'] + label:hover{
+	border:1px solid #000000;
+
+}
+
+input[type='radio']:checked + label {
+background-color:#0C0;
+color:#fff;
+border:1px solid #0C0 !important;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+.scp-quizzes-data{ 
+box-shadow: 0px 1px 3px -1px #DCDCDC;
+padding:10px;
+margin-top:15px;
+}
+.scp-quizzes-main{ width:100%; font-family:Verdana, Arial, Helvetica, sans-serif;}	 
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: black;
+	background-color: #96FA97;
+	border: 0px;
+	border-radius: 2px;
+	padding: 5px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+#submit:hover{
+	background-color: #94DD25;
+}
+
+.ans_mark{
+background-color:#159EF1;color:#fff; border:1px solid #F36 !important;-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;}
